@@ -1,0 +1,14 @@
+name: pytorch-CycleGAN-and-pix2pix
+channels:
+- pytorch
+- defaults
+dependencies:
+- python
+- pytorch
+- scipy
+- pip:
+  - dominate
+  - torchvision
+  - Pillow
+  - numpy
+  - visdom
